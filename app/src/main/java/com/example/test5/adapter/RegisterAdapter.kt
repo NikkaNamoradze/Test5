@@ -86,7 +86,7 @@ class RegisterAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
                 tvChoosesTitle.text = itemsList[adapterPosition].hint
                 ibIcon.setImageResource(itemsList[adapterPosition].icon)
                 root.setOnClickListener {
-//                    clickItem?.invoke(listOfItems[adapterPosition])
+                    clickItem?.invoke(listOfItems[adapterPosition])
                 }
             }
         }
